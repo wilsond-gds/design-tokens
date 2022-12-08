@@ -22,7 +22,7 @@ include the design token sass file, e.g.
 Currently the syntax looks like this:
 
 ```scss
- color: map.get(design-tokens.$design-tokens, gov-uk, govuk-text-colour, value);
+.my-class { color: map.get(design-tokens.$design-tokens, gov-uk, govuk-text-colour, value); }
 ```
 
 We ask SASS for the map, then work through the values in the array until we have referenced the one we need. This could
