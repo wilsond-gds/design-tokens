@@ -18,12 +18,11 @@ If changes are made to the design tokens file, designers will currently need to 
 
 ## How do developers get access to these values in SASS?
 
-To use your design tokens in SASS, the JSON file first needs to be converted to a SASS Map (a multi-dimensional array) and then `@use`d in your main SASS file. 
+To use your design tokens in SASS, the JSON file first needs to be converted to [a SASS Map](https://sass-lang.com/documentation/values/maps) (a multi-dimensional array) and then `@use`d in your main SASS file. 
 
-For this example workflow, [converting the JSON to SASS uses `json-to-scss`](https://www.npmjs.com/package/json-to-scss). Variables created in the resulting `.scss` file can then be referenced using `map.get` (remember to initialise using maps in SASS with `@use "sass:map"`). To access a value, reference the full list of keys that lead to the value, for example: 
+For this example workflow, [converting the JSON to SASS uses `json-to-scss`](https://www.npmjs.com/package/json-to-scss). Variables created in the resulting `.scss` file can then be referenced using `map.get` (remember to [initialise using maps in SASS with `@use "sass:map"`](https://sass-lang.com/documentation/at-rules/use)). To access a value, reference the full list of keys that lead to the value, for example: 
 
 ```json
-// JSON
 {
   "global": {
     "red": {
