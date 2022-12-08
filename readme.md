@@ -59,3 +59,5 @@ color: map.get(
 // where design-tokens is the name of the included file
 // $design-tokens is the name of the variable holding the map
 ```
+
+There is [a working code example in the `creating-local-css` folder](https://github.com/wilsond-gds/design-tokens/tree/main/creating-local-css).
