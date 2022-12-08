@@ -1,0 +1,18 @@
+{
+  "name": "design-tokens",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "process-json": "json-to-scss ./basic-code/design-tokens.json",
+    "build-sass": "npm run process-json && sass basic-code/styles.scss > styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "json-to-scss": "^1.6.2",
+    "sass": "^1.56.1"
+  }
+}
