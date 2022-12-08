@@ -69,14 +69,16 @@
     "non-service-typography-body": {
       "value": {
         "fontFamily": "Inter",
-        "fontWeight": "400"
+        "fontWeight": "400",
+        "fontSize": "1rem"
       },
       "type": "typography"
     },
     "non-service-typography-heading": {
       "value": {
         "fontFamily": "Inter",
-        "fontWeight": "700"
+        "fontWeight": "700",
+        "fontSize": "2rem"
       },
       "type": "typography"
     }
