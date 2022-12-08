@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "process-json": "json-to-scss ./basic-code/design-tokens.json",
-    "build-sass": "npm run process-json && sass basic-code/styles.scss > styles.css"
+    "process-json": "json-to-scss ./shared-code/design-tokens.json ./creating-local-css/design-tokens.scss",
+    "build-sass": "npm run process-json && sass ./creating-local-css/demo.scss > ./creating-local-css/demo.css"
   },
   "keywords": [],
   "author": "",

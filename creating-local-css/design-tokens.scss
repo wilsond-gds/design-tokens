@@ -1,0 +1,168 @@
+$design-tokens: (
+  gov-uk: (
+    govuk-text-colour: (
+      value: #0b0c0c,
+      type: color
+    ),
+    govuk-secondary-text-colour: (
+      value: #505a5f,
+      type: color
+    ),
+    govuk-link-colour: (
+      value: #1d70b8,
+      type: color
+    ),
+    govuk-link-hover-colour: (
+      value: #003078,
+      type: color
+    ),
+    govuk-link-visited-colour: (
+      value: #4c2c92,
+      type: color
+    ),
+    govuk-link-active-colour: (
+      value: #0b0c0c,
+      type: color
+    ),
+    govuk-border-colour: (
+      value: #b1b4b6,
+      type: color
+    ),
+    govuk-input-border-colour: (
+      value: #0b0c0c,
+      type: color
+    ),
+    govuk-focus-colour: (
+      value: #ffdd00,
+      type: color
+    ),
+    govuk-focus-text-colour: (
+      value: #0b0c0c,
+      type: color
+    ),
+    govuk-error-colour: (
+      value: #d4351c,
+      type: color
+    ),
+    govuk-success-colour: (
+      value: #00703c,
+      type: color
+    ),
+    govuk-brand-colour: (
+      value: #1d70b8,
+      type: color
+    ),
+    gds-body-typography: (
+      value: (
+        fontFamily: "GDS Transport Website",
+        fontWeight: light
+      ),
+      type: typography
+    ),
+    gds-heading-typography: (
+      value: (
+        fontFamily: "GDS Transport Website",
+        fontWeight: bold
+      ),
+      type: typography
+    ),
+    non-service-typography-body: (
+      value: (
+        fontFamily: "Inter",
+        fontWeight: 400,
+        fontSize: 1rem
+      ),
+      type: typography
+    ),
+    non-service-typography-heading: (
+      value: (
+        fontFamily: "Inter",
+        fontWeight: 700,
+        fontSize: 2rem
+      ),
+      type: typography
+    )
+  ),
+  global: (
+    govuk-colour-red: (
+      value: #d4351c,
+      type: color
+    ),
+    govuk-colour-yellow: (
+      value: #ffdd00,
+      type: color
+    ),
+    govuk-colour-green: (
+      value: #00703c,
+      type: color
+    ),
+    govuk-colour-blue: (
+      value: #1d70b8,
+      type: color
+    ),
+    govuk-colour-dark-blue: (
+      value: #003078,
+      type: color
+    ),
+    govuk-colour-light-blue: (
+      value: #5694ca,
+      type: color
+    ),
+    govuk-colour-purple: (
+      value: #4c2c92,
+      type: color
+    ),
+    govuk-colour-black: (
+      value: #0b0c0c,
+      type: color
+    ),
+    govuk-colour-dark-grey: (
+      value: #505a5f,
+      type: color
+    ),
+    govuk-colour-mid-grey: (
+      value: #b1b4b6,
+      type: color
+    ),
+    govuk-colour-light-grey: (
+      value: #f3f2f1,
+      type: color
+    ),
+    govuk-colour-white: (
+      value: #ffffff,
+      type: color
+    ),
+    govuk-colour-light-purple: (
+      value: #6f72af,
+      type: color
+    ),
+    govuk-colour-bright-purple: (
+      value: #912b88,
+      type: color
+    ),
+    govuk-colour-pink: (
+      value: #d53880,
+      type: color
+    ),
+    govuk-colour-light-pink: (
+      value: #f499be,
+      type: color
+    ),
+    govuk-colour-orange: (
+      value: #f47738,
+      type: color
+    ),
+    govuk-colour-brown: (
+      value: #b58840,
+      type: color
+    ),
+    govuk-colour-light-green: (
+      value: #85994b,
+      type: color
+    ),
+    govuk-colour-turquoise: (
+      value: #28a197,
+      type: color
+    )
+  )
+);
